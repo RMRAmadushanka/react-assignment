@@ -95,26 +95,25 @@ The drag-and-drop mechanism in this project uses **React-DnD** to manage drag in
 
 The project follows a simple and organized structure for ease of development and scalability.
 
-```
 /src
   /components
-    - DraggableItem.tsx    // The Draggable functionality implemented
-    - DragItem.tsx         // The draggable table items
-    - DropZone.tsx         // The DropZone where the drag-and-drop functionality is implemented
-    - Footer.tsx           // The Footer Implemented
-    - Header.tsx           // The Header component
-    - MainRoom.tsx         // The main room where the all the main component combine
+    - DraggableItem.tsx    // Implements draggable functionality
+    - DragItem.tsx         // Draggable table items component
+    - DropZone.tsx         // DropZone for drag-and-drop functionality
+    - Footer.tsx           // Footer component
+    - Header.tsx           // Header component
+    - MainRoom.tsx         // Main room combining all components
   /redux
     - droppedItemsSlice.ts // Redux slice for managing dropped items
     - store.ts             // Redux store configuration
-    - types.ts             // The Typescript types
+    - types.ts             // TypeScript types
   /assets
-    - Table.svg            // SVG assets for the table images
-    - Mid.svg
-    - Button.base (1).svg  // Button images for minus/plus actions
-    - Button.base (2).svg
-  App.tsx                  // Root component
+    - Table.svg            // SVG for table image
+    - Mid.svg              // SVG for middle section
+    - Button.base (1).svg  // SVG for minus button
+    - Button.base (2).svg  // SVG for plus button
+  App.tsx                  // Root application component
   index.tsx                // Application entry point
   styles.css               // Global styles
-```
+
 
