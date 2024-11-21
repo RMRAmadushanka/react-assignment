@@ -90,7 +90,7 @@ The drag-and-drop mechanism in this project uses **React-DnD** to manage drag in
    - The drop position is calculated by dividing the mouse coordinates by the width and height of each grid cell. This ensures that the item aligns perfectly with the grid cells. 
    - The grid size is configurable, and the layout ensures that items do not overlap, using a simple check to verify that a cell is unoccupied before placing an item.
 
-   
+
 ## Project Structure
 
 The project follows a simple and organized structure for ease of development and scalability.
@@ -116,6 +116,5 @@ The project follows a simple and organized structure for ease of development and
   App.tsx                  // Root component
   index.tsx                // Application entry point
   styles.css               // Global styles
-
-
+```
 
