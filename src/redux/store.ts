@@ -1,6 +1,10 @@
-import { createStore } from 'redux';
-import rootReducer from './reducers';
+import { configureStore } from '@reduxjs/toolkit';
+import droppedItemsReducer from '../redux/droppedItemsSlice';
 
-const store = createStore(rootReducer);
+const store = configureStore({
+  reducer: {
+    droppedItems: droppedItemsReducer,
+  },
+});
 
 export default store;
