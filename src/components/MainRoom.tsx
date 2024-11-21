@@ -89,14 +89,8 @@ const MainRoom: React.FC = () => {
                 <MoreVertIcon />
               </div>
             </div>
-
-            {/* Table Area */}
-            <div className="flex-grow border-t pt-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {/* Section for Drag and Drop Table Items */}
-            </div>
             <DropZone />
           </div>
-
           {/* Footer */}
           <Footer />
         </div>
